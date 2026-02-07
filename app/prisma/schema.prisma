@@ -25,7 +25,7 @@ model Service {
   id          String   @id @default(cuid())
   name        String
   description String?
-  price       Decimal
+  price       Decimal  @db.Decimal(10, 2)
   duration    Int      // Duration in minutes
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt

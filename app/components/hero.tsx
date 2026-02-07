@@ -35,10 +35,12 @@ export function Hero() {
                                 Agendar Consulta
                             </Button>
                         </Link>
-                        <Button variant="outline" size="lg" className="rounded-full px-8 gap-2 group">
-                            Conhecer Serviços
-                            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                        </Button>
+                        <Link href="#servicos">
+                            <Button variant="outline" size="lg" className="rounded-full px-8 gap-2 group">
+                                Conhecer Serviços
+                                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            </Button>
+                        </Link>
                     </div>
                 </motion.div>
 

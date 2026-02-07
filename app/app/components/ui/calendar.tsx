@@ -9,12 +9,7 @@ import { ptBR } from 'date-fns/locale';
 import { cn } from '@/app/lib/utils'; // I need to create utils if not exists, or inline cn
 import { buttonVariants } from '@/app/components/ui/button'; // Need to export buttonVariants or use specific styles
 
-// Inline cn for now if utils not created, but I created utils in Button? No, I inlined it in Button.
-// I should create lib/utils.ts to share cn.
 
-function cn(...inputs: (string | undefined | null | false)[]) {
-    return inputs.filter(Boolean).join(' ');
-}
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker>;
 

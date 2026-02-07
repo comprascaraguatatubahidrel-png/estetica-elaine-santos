@@ -1,15 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { DayPicker } from 'react-day-picker';
-import { excludeDate } from 'react-day-picker/utils';
 import { ptBR } from 'date-fns/locale';
 
 import { cn } from '@/app/lib/utils'; // I need to create utils if not exists, or inline cn
-import { buttonVariants } from '@/app/components/ui/button'; // Need to export buttonVariants or use specific styles
-
-
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker>;
 
@@ -55,10 +50,6 @@ function Calendar({
                     'aria-selected:bg-accent aria-selected:text-accent-foreground',
                 day_hidden: 'invisible',
                 ...classNames,
-            }}
-            components={{
-                IconLeft: ({ ...props }) => <ChevronLeft className="h-4 w-4" />,
-                IconRight: ({ ...props }) => <ChevronRight className="h-4 w-4" />,
             }}
             {...props}
         />

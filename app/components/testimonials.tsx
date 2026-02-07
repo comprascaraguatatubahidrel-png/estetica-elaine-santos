@@ -39,7 +39,7 @@ export function Testimonials() {
     }, []);
 
     return (
-        <section className="py-20 bg-[var(--secondary)]/10">
+        <section id="depoimentos" className="py-20 bg-[var(--secondary)]/10">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-serif text-[var(--primary)] mb-4">
@@ -89,8 +89,8 @@ export function Testimonials() {
                                 key={index}
                                 onClick={() => setCurrent(index)}
                                 className={`w-3 h-3 rounded-full transition-all duration-300 ${index === current
-                                        ? 'bg-[var(--secondary)] w-8'
-                                        : 'bg-gray-300 hover:bg-gray-400'
+                                    ? 'bg-[var(--secondary)] w-8'
+                                    : 'bg-gray-300 hover:bg-gray-400'
                                     }`}
                                 aria-label={`Ver depoimento ${index + 1}`}
                             />

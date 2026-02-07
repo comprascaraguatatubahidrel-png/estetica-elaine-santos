@@ -3,6 +3,8 @@ import { Hero } from "./components/hero";
 import { Services } from "./components/services";
 import { Testimonials } from "./components/testimonials";
 
+import { Footer } from "./components/footer";
+
 export default function Home() {
   return (
     <main className="min-h-screen">
@@ -42,7 +44,8 @@ export default function Home() {
       <Services />
       <Testimonials />
 
-      <div className="h-[100px]"></div> {/* Spacer */}
+      <div className="h-[50px]"></div> {/* Spacer - reduced */}
+      <Footer />
     </main>
   );
 }

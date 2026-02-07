@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export function Hero() {
     return (
-        <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[var(--background)] pt-20">
+        <section id="sobre" className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[var(--background)] pt-20">
             {/* Background Decor */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[var(--secondary-light)]/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
             <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[var(--primary-light)]/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />

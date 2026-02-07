@@ -4,7 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 export function WhatsAppButton() {
-    const phoneNumber = '5512999999999'; // Substituir pelo número real
+    const phoneNumber = '5512997157991'; // Número da Elaine Santos
     const message = encodeURIComponent('Olá! Gostaria de agendar uma avaliação na Elaine Santos Estética.');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 

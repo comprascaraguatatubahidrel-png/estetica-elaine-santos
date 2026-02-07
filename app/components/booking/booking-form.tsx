@@ -76,6 +76,9 @@ export function BookingForm() {
                             selected={date}
                             onSelect={setDate}
                             className="rounded-md border"
+                            captionLayout="dropdown"
+                            fromYear={new Date().getFullYear()}
+                            toYear={new Date().getFullYear() + 1}
                             disabled={(date) => date < new Date() || date.getDay() === 0} // Disable past dates and Sundays
                         />
                     </CardContent>

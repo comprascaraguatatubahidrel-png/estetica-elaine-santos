@@ -18,7 +18,7 @@
 - [x] Modelagem do Banco de Dados (User, Service, Appointment, Schedule)
 - [x] Interface de Calendário para Clientes
 - [x] Painel Administrativo (Estrutura Inicial)
-- [ ] Fluxo de Agendamento (Seleção de Serviço -> Data/Hora -> Confirmação)
+- [x] Fluxo de Agendamento (Seleção de Serviço -> Data/Hora -> Confirmação)
 - [ ] Autenticação de Cliente (Opcional ou via SMS/WhatsApp)
 
 ## 4. Painel Administrativo (Admin)
@@ -29,6 +29,14 @@
 - [x] Histórico de Agendamentos
 
 ## 5. Integrações e Deploy
-- [ ] Configuração de Deploy na Vercel
+- [x] Configuração de Deploy na Vercel
 - [x] Configurar Repositório Git (https://github.com/comprascaraguatatubahidrel-png/estetica-elaine-santos.git)
 - [ ] Integração com WhatsApp (Notificações) - *Sugestão*
+
+## 6. Fase 2: Excelência e Engajamento (O Melhor Site)
+- [ ] **Galeria Interativa (Antes/Depois)**: Slider para comparar resultados de procedimentos (Impacto Visual Alto).
+- [ ] **Prova Social (Depoimentos)**: Carrossel com avaliações reais de clientes (Confiança).
+- [ ] **Botão Flutuante do WhatsApp**: Contato rápido em todas as páginas (Conversão).
+- [ ] **Notificações Automáticas**: E-mail de confirmação e lembretes (Redução de faltas).
+- [ ] **SEO Otimizado**: Meta tags para Google e preview bonito no compartilhamento do WhatsApp.
+- [ ] **Performance (Speed)**: Otimização de imagens e fontes para carregar instantaneamente.
